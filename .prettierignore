@@ -1,0 +1,13 @@
+node_modules
+public
+.next
+.vscode
+.gitignore
+README.md
+yarn.lock
+tsconfig.json
+next.config.js
+next-env.d.ts
+package.json
+.prettierrc.json
+.eslintrc.json

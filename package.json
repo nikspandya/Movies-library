@@ -1,0 +1,56 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8080",
+    "build": "next build",
+    "start": "next start -p 8080",
+    "lint:next": "next lint",
+    "lint": "eslint . --ext .tsx --ext .ts",
+    "lint:fix": "yarn prettier --write . && eslint . --ext .tsx --ext .ts --fix"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@apollo/client": "^3.7.3",
+    "antd": "^4.22.4",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.0",
+    "graphql": "^16.6.0",
+    "jwt-decode": "^3.1.2",
+    "mobx": "^6.6.1",
+    "mobx-react": "^7.5.2",
+    "mobx-react-lite": "^3.4.0",
+    "moment": "^2.29.4",
+    "next": "^12.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "web-vitals": "^2.1.0"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": "yarn lint",
+    "*.{js,jsx,css,scss,md,html}": "yarn prettier"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.2",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "@types/react-highlight-words": "^0.16.4",
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0",
+    "@typescript-eslint/typescript-estree": "^5.19.0",
+    "eslint": "^8.22.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-next": "12.1.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "lint-staged": "^12.3.7",
+    "prettier": "2.7.1",
+    "typescript": "^4.6.3"
+  }
+}
